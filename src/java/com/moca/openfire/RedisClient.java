@@ -15,9 +15,9 @@ public class RedisClient {
 
 	public Jedis jedis;// 非切片额客户端连接
 	private JedisPool jedisPool;// 非切片连接池
-	//外网IP 101.251.197.244
+	
 	//内网IP 192.168.0.244
-	private String ip = "101.251.197.244";
+	private String ip = "192.168.0.244";
 	private int port = 6379;
 	
 	private static RedisClient instance = null;
