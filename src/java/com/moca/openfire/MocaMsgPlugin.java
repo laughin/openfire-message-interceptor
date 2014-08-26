@@ -238,6 +238,7 @@ public class MocaMsgPlugin implements PacketInterceptor, Plugin {
 					writeLog.createNewLog(MOCA_EXCEPTION_LOG);
 					writeLog.createNewLog(MOCA_REQUEST_LOG);
 					writeLog.createNewLog(MOCA_RECEIVED_LOG);
+					writeLog.createNewLog(MOCA_ORIGINAL_LOG);
 				}
 			}
 		} else if (packet instanceof Presence) {
